@@ -474,17 +474,59 @@
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .newsletterImg-1 {
     width: 672px;
     height: 422px;
-    margin-left:24px;
+    margin-left: 24px;
     flex-shrink: 0;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+.discount {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+
+
+}
+
+.discountimg,
+.discount {
+    position: relative;
+}
+
+.discount {
+    left: 355px;
+    bottom: 200px;
+}
+
+#travel-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+#travel-save {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* footer section */
@@ -794,7 +836,7 @@
         width: 375px;
         height: 350px;
         flex-shrink: 0;
-        margin-top: 60px;
+        margin-top: 0px;
         margin-left: 20px;
     }
 
@@ -829,6 +871,72 @@
     .footer-copyRight {
         padding-left: 90px;
         font-size: 14px;
+
+    }
+
+    /* newsletter responsive */
+    .newsLetter-main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 240px;
+    }
+
+    .newsLetter {
+        width: 365px;
+        height: 7445px;
+        margin-left: 25px;
+    }
+
+    .newsLetter h3 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .newsLetter p {
+        width: 270px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .newsLetter input {
+        width: 288px;
+        height: 52px;
+    }
+
+    .btn-ternary {
+        width: 315px;
+        height: 52px;
+        margin-bottom: 20px;
+
+    }
+
+    .newsletterImg-1 {
+        width: 355px;
+        height: 300px;
+        flex-shrink: 0;
+        margin-top:20px;
+        margin-left:30px;
+        
+    }
+    .discount{
+        left:162px;
+        bottom:143px;
+        width: 214.023px;
+        height: 79.268px;
+        line-height: 0;
+    }
+    .travel-text{
+        padding-top:25px;
 
     }
 
